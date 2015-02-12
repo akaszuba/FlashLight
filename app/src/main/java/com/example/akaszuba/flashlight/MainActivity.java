@@ -43,7 +43,7 @@ public class MainActivity extends Activity {
     }
 
     public void onButtonClicked(View view) {
-        appendLog("Button clicked, flashlight enabled:" + flashlightEnabled);
+        appendLog("Button clicked , flashlight enabled:" + flashlightEnabled);
         if (camera != null) {
             try {
                 if (flashlightEnabled) {
